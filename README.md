@@ -9,9 +9,10 @@ https://medium.com/@naveen.vijapurapu/diy-build-your-own-jarvis-7fae3801c49
 <br>Below we go through some of the popular options for creating AI Chatbots.<br>
 <br>But first, let us understand the architecture and the inner working details of a Chatbot.
 <br><br>Process flow of NLP (Natural Language Processing) Pipeline:
-<br>Most of the chatbots follow the below structure to identify the intent and entity classifications which is fed in to a pre-trained machine learning model to predict suitable responses to the input query. The steps are as follows <br><br>
- - Text Processing (Input & Output)
-  - Cleaning
+<br>Most of the chatbots follow the below structure to identify the intent and entity classifications which is fed in to a pre-trained machine learning model to predict suitable responses to the input query. The steps are as follows:
+
+* Text Processing (Input & Output)
+	 - Cleaning
 	 - Normalization
 	 - Tokenization
 	 - Stop Word Removal
@@ -22,27 +23,33 @@ https://medium.com/@naveen.vijapurapu/diy-build-your-own-jarvis-7fae3801c49
 	 - Bag of Words
 	 - TF-IDF (Term Frequency — Inverse Document Frequency)
 	 - Word Embeddings
-- Modeling
-<br><p>The final stage of the NLP pipeline is modeling, which includes designing a statistical or machine learning model, fitting its parameters to training data, using an optimization procedure, and then using it to make predictions about unseen data.<br>
+ - Modeling
+	 - The final stage of the NLP pipeline is modeling, which includes designing a statistical or machine learning model, fitting its parameters to training data, using an optimization procedure, and then using it to make predictions about unseen data.<br>
  
 ![PicR_2](https://user-images.githubusercontent.com/25864352/67790401-b8464a80-fa9b-11e9-8ead-5ce490928517.png)
 <i>Credit — Wall-E & Eva characters are Copyrighted by Disney Pixar Studios</i><br>
-<br> Different Types of Chatbots –
-Contextual AI- (Set of Rules or State Machines)
-· Notifications (Automated messages on expiry or for renewal)
-· FAQ Chatbots (Hardcoded commonly asked FAQ’s)
-Conversational AI & Types-
-· Rule Based ChatBot
-· Retrieval Based (TF-IDF)
-o Few of the frequently used models for Chatbots –
-· CNN (Convolutional Neural Networks)
-· DNN (Neural Networks)
-· Generative Based
-o Deep Learning
-· RNN (Recurrent Neural Networks)
-Now that we understood the inner workings of a chatbot, let us now compare the three poplar options available and used in the industry based on varying degrees of Ease of Use versus Open Source.
+<br> 
+Different Types of Chatbots –
+
+
+ * Contextual AI- (Set of Rules or State Machines)
+	 * Notifications (Automated messages on expiry or for renewal)
+	 * FAQ Chatbots (Hardcoded commonly asked FAQ’s)
+ * Conversational AI & Types-
+	 * Rule Based ChatBot
+	 * Retrieval Based (TF-IDF)
+		 * Few of the frequently used models for Chatbots –
+		 	 * CNN (Convolutional Neural Networks)
+			 * DNN (Neural Networks)
+ * Generative Based
+ * Deep Learning
+	 * RNN (Recurrent Neural Networks)
+<br><br>
+Now that we understood the inner workings of a chatbot, let us now compare the three poplar options available and used in the industry based on varying degrees of Ease of Use versus Open Source.<br><br>
 We will go over Diaglogflow, Chatterbot & RASA as our three options to build chatbots.
-<br><br> ###Side by side comparison
+<br><br> 
+__Side by side comparison__
+<br>
 ![pic_compare](https://user-images.githubusercontent.com/25864352/67794424-a1efbd00-faa2-11e9-9eb2-5f1c9ec47c5c.png)
 <br>
 <br>
@@ -61,41 +68,47 @@ Wikipedia: Dialogflow<br>
 
 <br><br>
 ![PicR_4](https://user-images.githubusercontent.com/25864352/67790250-7917f980-fa9b-11e9-84b5-da2feabc9ff0.png)
-
-ChatterBot is a machine-learning based conversational dialog engine build in Python which makes it possible to generate responses based on collections of known conversations. The language independent design of ChatterBot allows it to be trained to speak any language.
+<br>
+__ChatterBot__ is a machine-learning based conversational dialog engine build in Python which makes it possible to generate responses based on collections of known conversations. The language independent design of ChatterBot allows it to be trained to speak any language.
 <br><br>
 
-How it works<br><br>
+__How it works__<br><br>
 An untrained instance of ChatterBot starts off with no knowledge of how to communicate. Each time a user enters a statement, the library saves the text that they entered and the text that the statement was in response to. As ChatterBot receives more input the number of responses that it can reply and the accuracy of each response in relation to the input statement increase. The program selects the closest matching response by searching for the closest matching known statement that matches the input, it then returns the most likely response to that statement based on how frequently each response is issued by the people the bot communicates with.
 <br><br>
 ![PicR_5](https://user-images.githubusercontent.com/25864352/67790249-7917f980-fa9b-11e9-8ff4-b6ffe0578a8f.png)<br>
-References:<br><br>
+__References__:<br><br>
 https://github.com/gunthercox/ChatterBot <br><br>
 https://chatterbot.readthedocs.io/en/stable/ <br><br>
 
 ![PicR_6](https://user-images.githubusercontent.com/25864352/67790248-787f6300-fa9b-11e9-80f8-7f5cba47ab5d.png)
 <br><br>
-<p>RASA is a set of open source Machine learning tools for developers for Conversational AI. An open source machine learning framework to automate text-and voice-based conversations.
+__RASA__ is a set of open source Machine learning tools for developers for Conversational AI. An open source machine learning framework to automate text-and voice-based conversations.
 <br><br>
 <p>Rasa’s primary purpose is to help you build contextual, layered conversations with lots of back-and-forth. To have a real conversation, you need to have some memory and build on things that were said earlier. Rasa lets you do that in a scalable way.
-<br><br>Rasa contains two main components:
- - NLU — Natural Language Understanding for Intent Classification and Entity extraction
-  - Takes unstructured data and converts them to structured data on the form of intents and entities
- - Core — Framework for machine learning based, contextual decision making. Dialog Management component. Brains of the Conversational AI
-<br><br>Tutorial:
+<br><br>
+Rasa contains two main components:
+ * NLU — Natural Language Understanding for Intent Classification and Entity extraction
+	 * Takes unstructured data and converts them to structured data on the form of intents and entities
+ * Core — Framework for machine learning based, contextual decision making. Dialog Management component. Brains of the Conversational AI
+<br><br>
+Tutorial:<br>
 https://rasa.com/docs/rasa/user-guide/rasa-tutorial<br><br>
-Try RASA<br>
+Try RASA
+<br>
 ![PicR_7](https://user-images.githubusercontent.com/25864352/67794516-c8adf380-faa2-11e9-9c40-d3998e9d7644.png)
 
-<br><br>Reference: https://rasa.com/<br>
-GitHub: https://github.com/rasaHQ/
 <br><br>
-Conclusion:<br>
+__Reference__: https://rasa.com/<br>
+__GitHub__: https://github.com/rasaHQ/
+<br><br>
+__Conclusion__:<br>
 Hope this article has simplified the process for creating your own bot! Message me in the comments with your example bots for interaction.
-<br><br>These are my bot examples: <br>
- - Chatterbot — https://shankachakra.pythonanywhere.com/<br>
- - Dialogflow bot –dialogflow-demo-bot
-<br><br>References:<br>
+<br><br>
+__These are my bot examples:__ <br>
+ * Chatterbot — https://shankachakra.pythonanywhere.com/<br>
+ * Dialogflow bot –dialogflow-demo-bot
+<br><br>
+__References__:<br>
 Udacity Nano Degree for Data Scientist <br>
 Searches on stackoverflow.com for research<br>
 <br><br>
