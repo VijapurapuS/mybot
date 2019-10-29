@@ -47,15 +47,19 @@ Different Types of Chatbots –
 <br><br>
 Now that we understood the inner workings of a chatbot, let us now compare the three poplar options available and used in the industry based on varying degrees of Ease of Use versus Open Source.<br><br>
 We will go over Diaglogflow, Chatterbot & RASA as our three options to build chatbots.
-<br><br> 
+<br>
+<br> 
 __Side by side comparison__
 <br>
+
 ![pic_compare](https://user-images.githubusercontent.com/25864352/67794424-a1efbd00-faa2-11e9-9eb2-5f1c9ec47c5c.png)
+
 <br>
 <br>
 Now as we can clearly see, there is no one single solution that fits all, we will go over the details of each of the options and leave it to you to pick the right tool for your needs!<br>
 
 ![PicR_3](https://user-images.githubusercontent.com/25864352/67790251-7917f980-fa9b-11e9-9744-932aec3d61b2.png)
+
 <br><br>
 Dialogflow (formerly Api.ai, Speaktoit) is a Google-owned developer of human–computer interaction technologies based on natural language conversations.
 Gives users new ways to interact with your product by building engaging voice and text-based conversational interfaces, such as voice apps and chatbots, powered by AI. Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
@@ -67,7 +71,9 @@ Gives users new ways to interact with your product by building engaging voice an
 Wikipedia: Dialogflow<br>
 
 <br><br>
+
 ![PicR_4](https://user-images.githubusercontent.com/25864352/67790250-7917f980-fa9b-11e9-84b5-da2feabc9ff0.png)
+
 <br>
 __ChatterBot__ is a machine-learning based conversational dialog engine build in Python which makes it possible to generate responses based on collections of known conversations. The language independent design of ChatterBot allows it to be trained to speak any language.
 <br><br>
@@ -75,12 +81,15 @@ __ChatterBot__ is a machine-learning based conversational dialog engine build in
 __How it works__<br><br>
 An untrained instance of ChatterBot starts off with no knowledge of how to communicate. Each time a user enters a statement, the library saves the text that they entered and the text that the statement was in response to. As ChatterBot receives more input the number of responses that it can reply and the accuracy of each response in relation to the input statement increase. The program selects the closest matching response by searching for the closest matching known statement that matches the input, it then returns the most likely response to that statement based on how frequently each response is issued by the people the bot communicates with.
 <br><br>
+
 ![PicR_5](https://user-images.githubusercontent.com/25864352/67790249-7917f980-fa9b-11e9-8ff4-b6ffe0578a8f.png)<br>
+
 __References__:<br><br>
 https://github.com/gunthercox/ChatterBot <br><br>
 https://chatterbot.readthedocs.io/en/stable/ <br><br>
 
 ![PicR_6](https://user-images.githubusercontent.com/25864352/67790248-787f6300-fa9b-11e9-80f8-7f5cba47ab5d.png)
+
 <br><br>
 __RASA__ is a set of open source Machine learning tools for developers for Conversational AI. An open source machine learning framework to automate text-and voice-based conversations.
 <br><br>
@@ -94,7 +103,7 @@ Rasa contains two main components:
 Tutorial:<br>
 https://rasa.com/docs/rasa/user-guide/rasa-tutorial<br><br>
 Try RASA
-<br>
+
 ![PicR_7](https://user-images.githubusercontent.com/25864352/67794516-c8adf380-faa2-11e9-9c40-d3998e9d7644.png)
 
 <br><br>
