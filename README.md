@@ -5,6 +5,26 @@ https://medium.com/@naveen.vijapurapu/diy-build-your-own-jarvis-7fae3801c49
 
 ![Picr_1](https://user-images.githubusercontent.com/25864352/67790253-79b09000-fa9b-11e9-9b6e-eb133253ec3b.png)
 <i>Credit — Marvel Studios </i><br>
+
+### Motivation
+Conversational AI is re-defining the future of Customer Service. I wanted to explore on the options that are available for deploying chatbots and help answer the below questions to help make a difference for start-ups and smaller companies to compete with larger organizations – <br>
+ - What is a Chatbot and why is it becoming a Big Deal?
+ - How can it be made accessible to all for deploying a chatbot to improve the Customer Satisfaction Index.
+ - Are bot messages the new email, when it comes to generating traffic and leads? (Spoiler – Research and Results say ‘Yes!’)
+ <br> <br>
+ 
+### Problem Statement 
+<br>
+What are the options available for creating Personal bots? No single source of information is easily available for comparing the options available for creating bots
+Customer wait times through traditional methods and IVRS have long wait times and cause to bad Customer experience and frustration.
+How can we look at ways to accelerate and improve customer service by establishing an innovative messaging service across multiple digital platforms
+<br>
+<br>
+
+### Introduction 
+
+<br>
+
 <p>It is no longer just a figment of Scify imagination on the big movie screens to have an Artificial Intelligent Robot similar to Jarvis for IronMan replying to your queries. And NO, you don’t have to be wealthy rich like Tony Stark either to own one (or one of the big MNC’s). Sounds interesting?? then please continue reading.. <br>
 <br>Below we go through some of the popular options for creating AI Chatbots.<br>
 <br>But first, let us understand the architecture and the inner working details of a Chatbot.
@@ -49,7 +69,8 @@ Now that we understood the inner workings of a chatbot, let us now compare the t
 We will go over Diaglogflow, Chatterbot & RASA as our three options to build chatbots.
 <br>
 <br> 
-__Side by side comparison__
+__Side by side comparison__ 
+
 <br>
 
 ![pic_compare](https://user-images.githubusercontent.com/25864352/67794424-a1efbd00-faa2-11e9-9eb2-5f1c9ec47c5c.png)
@@ -57,10 +78,63 @@ __Side by side comparison__
 <br>
 <br>
 Now as we can clearly see, there is no one single solution that fits all, we will go over the details of each of the options and leave it to you to pick the right tool for your needs!<br>
+<br>
+
+### Metrics Used/ Referenced: 
+
+<br>
+
+The below metrics can be considered while deploying a chatbot and analysing the gains<br>
+
+ - Customer Satisfaction
+ - Reduction in Customer Wait Times
+ - Effective Utilization of key personnel
+ - Retention Rate - Effectiveness through Engagement and Re-engagement
+ - Reduction in repetitive FAQ's asked freeing up employee's time for other critical tasks
+ - Repetitive tasks and human intervention 
+
+<br><br>
+
+ - Market Research on Metrics–
+	 - When tested whether its chatbot or email marketing drove more traffic to its website, the results were staggering. On average, 	the bot had an 84% “read” rate and a 53% CTR –  1,428% higher engagement rate than the email funnel.
+	 - Though its email content and bot content were both super-personalized, bot appeared to have avoided the spam filters and “inbox fatigue” that led to the lower email metrics.
+	 - Automated qualification and immediate response time increased new leads by 70% and new opportunities by 170% in three months.
+
+<br> <br>
+
+### Improvements and Results: 
+
+<br>
+
+- Improved Customer Service
+- Improved Customer Engagement
+- 6-8 minute average conversations
+ - 11 turns per conversation
+- 50% user re-engagement
+<br>Courtesy:
+https://socialmediaweek.org/newyork/events/case-study-national-geographics-albert-einstein-chatbot/
+<br>
+https://www.ubisend.com/case-studies
+ 
+- Always Available (24 X 7)
+- Reduction in wait times for Customers
+          - FAQ Chatbot Reduces Customer Support Emails by 83%
+- Data for insights and lead generation
+          - Van Leasing Sales Chatbot Generates 30,000+ Leads
+- Scalability
+- Cost Savings
+- Bot saves 950 minutes of Human Time per day
+- Enables smaller start-ups to compete against larger more established Organizations
+- Chatbots can be a great back up for employees for relatively basic and repetitive tasks being cost-effective, easy to implement, maintain and use.
+          - Recruitment Chatbot Reduces Unqualified Job Applications by 73%
+<br>
+<br>
 
 ![PicR_3](https://user-images.githubusercontent.com/25864352/67790251-7917f980-fa9b-11e9-9744-932aec3d61b2.png)
 
-<br><br>
+
+<br>
+<br>
 Dialogflow (formerly Api.ai, Speaktoit) is a Google-owned developer of human–computer interaction technologies based on natural language conversations.
 Gives users new ways to interact with your product by building engaging voice and text-based conversational interfaces, such as voice apps and chatbots, powered by AI. Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
 <br><br><p>Dialogflow is an end-to-end, build-once deploy-everywhere development suite for creating conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices.
@@ -110,6 +184,19 @@ Try RASA
 __Reference__: https://rasa.com/<br>
 __GitHub__: https://github.com/rasaHQ/
 <br><br>
+
+### Other options for bots 
+<br>
+
+ - Chatscript
+ - Chattypeople
+ - Pandorabots
+ - Botsify
+ - Rebot.me
+ 
+<br>
+<br>
+
 __Conclusion__:<br>
 Hope this article has simplified the process for creating your own bot! Message me in the comments with your example bots for interaction.
 <br><br>
