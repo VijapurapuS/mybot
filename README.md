@@ -15,6 +15,8 @@ Table of Contents
 * [Different Types of Chatbots –](#different-types-of-chatbots-) <br>
 * [Metrics Used/ Referenced:](#metrics-used-referenced) <br>
 * [Improvements and Results:](#improvements-and-results) <br>
+* [Dialogflow](#dialogflow)
+* [ChatterBot](#chatterbot)
 * [RASA](#rasa) <br>
 * [Slack and IBM Watson Movie Recommendation System](#slack-and-ibm-watson-movie-recommendation-system)
 	* [Data Exploration &amp; Pre-Processing](#data-exploration--pre-processing)
