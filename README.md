@@ -196,12 +196,25 @@ https://github.com/VijapurapuS/Chatbot/tree/master/bot
 <br>
 
 Data Exploration, Pre-processing, Results and Future improvements will be covered here for completeness of the article and Project report.
+<br>
+One important thing to note with this design is that, the data and processing is all handled in the local system. Even though we use IBM, it is used as an API service and none of the internal data is sent to IBM. This way the entire design can be implemented in your workplace without having to worry about data transfers.
+<br>
 
-### Installation and Bot Setup Implementation & Refinement fmor Other bots created (DiagFlow & Chatterbot)
+Users can interact with the bot via Slack. Once the user post a question, it is passed to the backend system for analysis.
+
+All the natural language processing happens in step 2. This includes IBM Watson processing, similarity search, recommendation based on collaborative filtering. After the NLP processing is completed, we have three outputs from it
+Intents — What the user is trying to ask or query?
+Entities — What is the exact field or column they are looking for?
+Dialog/Interaction — Provide the appropriate request/response for the user question.
+
+The results obtained from the backend is posted to user via Slack
+
+### Installation and Bot Setup Implementation & Refinement from Other bots created (DiagFlow & Chatterbot)
 This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below. 
 
 ### Step 1: 
 Create Slack Bot user
+
 
 ### Step 2: 
 Create a IBM Watson account and Upload the bot.json workspace
@@ -246,6 +259,25 @@ Navigate to the folder where the main python script exists and run the code belo
 python3 main.py
 ```
 
+# Data Exploration & Pre-Processing
+
+Please refer to the data folder under the repo - https://github.com/VijapurapuS/Chatbot/tree/master/bot for code to follow along.
+
+
+The data for this exercise is taken from the Kaggle link below. The name of the dataset is “movies_metadata.csv”.
+https://www.kaggle.com/rounakbanik/movie-recommender-systems/data?source=post_page-----7c69af7a7439----------------------
+
+The dataset contains a lot of information related to movies with less preprocessing required from users. Hence I chose it for training the 
+bot.
+
+Data_Preparation.ipynb <<https://github.com/VijapurapuS/Chatbot/blob/master/bot/data/Data_Preparation.ipynb>>
+
+<br>
+
+
+
+
+
 
 
 ### Other options for bots 
@@ -263,11 +295,20 @@ python3 main.py
 __Conclusion__:<br>
 Hope this article has simplified the process for creating your own bot! Message me in the comments with your example bots for interaction.
 <br><br>
+
+### Future Improvements:
+* Improvement based on the language of the film
+* Extend recommendations based on actors
+* Collaborative user based recommendations
+
 __These are my bot examples:__ <br>
  * Chatterbot — https://shankachakra.pythonanywhere.com/<br>
  * Dialogflow bot –dialogflow-demo-bot
+
 <br><br>
 __References__:<br>
 Udacity Nano Degree for Data Scientist <br>
 Searches on stackoverflow.com for research<br>
+<https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code>
+<https://www.kaggle.com/rounakbanik/the-movies-dataset>
 <br><br>
