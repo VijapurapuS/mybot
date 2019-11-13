@@ -259,7 +259,7 @@ Navigate to the folder where the main python script exists and run the code belo
 python3 main.py
 ```
 
-# Data Exploration & Pre-Processing
+### Data Exploration & Pre-Processing
 
 Please refer to the data folder under the repo - https://github.com/VijapurapuS/Chatbot/tree/master/bot for code to follow along.
 
@@ -302,8 +302,8 @@ Hope this article has simplified the process for creating your own bot! Message 
 * Collaborative user based recommendations
 
 __These are my bot examples:__ <br>
- * Chatterbot — https://shankachakra.pythonanywhere.com/<br>
- * Dialogflow bot –dialogflow-demo-bot
+ * Chatterbot — <https://shankachakra.pythonanywhere.com/> <br>
+ * Dialogflow bot <https://bot.dialogflow.com/dialogflow-demo>
 
 <br><br>
 __References__:<br>
