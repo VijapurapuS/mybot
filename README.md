@@ -4,28 +4,7 @@ Please visit the below blog for referring to the Original article.<br>
 https://medium.com/@naveen.vijapurapu/diy-build-your-own-jarvis-7fae3801c49
 
 ![Picr_1](https://user-images.githubusercontent.com/25864352/67790253-79b09000-fa9b-11e9-9b6e-eb133253ec3b.png)
-<i>Credit — Marvel Studios </i><br>
-
-Table of Contents
-=================
-
-      * [DIY: BUILD YOUR OWN JARVIS! (AI Chatbot)](#diy-build-your-own-jarvis-ai-chatbot)
-         * [By Subhash Naveen V<br>](#by-subhash-naveen-v)
-         * [Motivation](#motivation)
-         * [Problem Statement](#problem-statement)
-         * [Introduction](#introduction)
-         * [Different Types of Chatbots –](#different-types-of-chatbots-)
-         * [Metrics Used/ Referenced:](#metrics-used-referenced)
-         * [Improvements and Results:](#improvements-and-results)
-         * [RASA](#rasa)
-   * [Slack and IBM Watson Movie Recommendation System](#slack-and-ibm-watson-movie-recommendation-system)
-         * [Installation and Bot Setup Implementation &amp; Refinement from Other bots created (DiagFlow &amp; Chatterbot)](#installation-and-bot-setup-implementation--refinement-from-other-bots-created-diagflow--chatterbot)
-         * [Data Exploration &amp; Pre-Processing](#data-exploration--pre-processing)
-         * [Other options for bots](#other-options-for-bots)
-         * [Conclusion:<br>](#conclusion)
-         * [Future Improvements:](#future-improvements)
-         * [These are my bot examples:<br>](#these-are-my-bot-examples)
-         * [References:<br>](#references)	 
+<i>Credit — Marvel Studios </i><br>	 
 
 ### Motivation
 Conversational AI is re-defining the future of Customer Service. I wanted to explore on the options that are available for deploying chatbots and help answer the below questions to help make a difference for start-ups and smaller companies to compete with larger organizations – <br>
@@ -229,13 +208,13 @@ The results obtained from the backend is posted to user via Slack
 ### Installation and Bot Setup Implementation & Refinement from Other bots created (DiagFlow & Chatterbot)
 This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below. 
 
-#### Step 1: 
+__Step 1__: 
 Create Slack Bot user
 
-#### Step 2: 
+__Step 2__: 
 Create a IBM Watson account and Upload the bot.json workspace
 
-#### Step 3: 
+__Step 3__: 
 Install the required packages listed in the requirements.txt file. To install the required packages, please use the code below.
 
 ```
@@ -244,11 +223,11 @@ pip3 install -r requirements.txt
 <br>
 It would be recommended to use Python 3.5.x or 3.6.x version for this project.
 
-#### Step 4: 
+__Step 4__: 
 Update the config files with the Slack and Watson API details
 Please make sure that you modified the API details both for Slack and Watson in the config.py file
 
-#### Step 5:
+__Step 5__:
 Download data from source and perform Data Preparation.
 The data for this example is downloaded from the location below:
 
@@ -258,7 +237,7 @@ Name of the dataset - movies_metadata.csv
 
 "metadata_prep.csv" will be created after you run the data preparation code which will be later used in nlp models to train the movie recommendation system.
 
-#### Step 6: 
+__Step 6__: 
 Create "onetime.txt" file
 Navigate to the folder where the main.py file resides and execute the code below.
 
@@ -267,7 +246,7 @@ python3 nlp/nlp_solutions/onetime_run_file.py
 ```
 This will create the "onetime.txt" file automatically.
 
-#### Step 7: 
+__Step 7__: 
 Initiate Bot
 Navigate to the folder where the main python script exists and run the code below.
 
@@ -302,7 +281,9 @@ Data_Preparation.ipynb <https://github.com/VijapurapuS/Chatbot/blob/master/bot/d
 <br>
 <br>
 
-### Conclusion:<br>
+### Conclusion:
+
+<br>
 Hope this article has simplified the process for creating your own bot! Message me in the comments with your example bots for interaction.
 <br><br>
 
