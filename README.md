@@ -49,9 +49,7 @@ How can we look at ways to accelerate and improve customer service by establishi
 ![PicR_2](https://user-images.githubusercontent.com/25864352/67790401-b8464a80-fa9b-11e9-8ead-5ce490928517.png)
 <i>Credit — Wall-E & Eva characters are Copyrighted by Disney Pixar Studios</i><br>
 <br> 
-Different Types of Chatbots –
-
-
+### Different Types of Chatbots –
  * Contextual AI- (Set of Rules or State Machines)
 	 * Notifications (Automated messages on expiry or for renewal)
 	 * FAQ Chatbots (Hardcoded commonly asked FAQ’s)
@@ -69,12 +67,10 @@ Now that we understood the inner workings of a chatbot, let us now compare the t
 We will go over Diaglogflow, Chatterbot & RASA as our three options to build chatbots.
 <br>
 <br> 
-__Side by side comparison__ 
-
+### Side by side comparison 
 <br>
 
 ![pic_compare](https://user-images.githubusercontent.com/25864352/67794424-a1efbd00-faa2-11e9-9eb2-5f1c9ec47c5c.png)
-
 <br>
 <br>
 Now as we can clearly see, there is no one single solution that fits all, we will go over the details of each of the options and leave it to you to pick the right tool for your needs!<br>
@@ -103,19 +99,12 @@ The below metrics can be considered while deploying a chatbot and analysing the 
 <br> <br>
 
 ### Improvements and Results: 
-
 <br>
-
 - Improved Customer Service
 - Improved Customer Engagement
 - 6-8 minute average conversations
- - 11 turns per conversation
+- 11 turns per conversation
 - 50% user re-engagement
-<br>Courtesy:
-https://socialmediaweek.org/newyork/events/case-study-national-geographics-albert-einstein-chatbot/
-<br>
-https://www.ubisend.com/case-studies
- 
 - Always Available (24 X 7)
 - Reduction in wait times for Customers
           - FAQ Chatbot Reduces Customer Support Emails by 83%
@@ -129,12 +118,17 @@ https://www.ubisend.com/case-studies
           - Recruitment Chatbot Reduces Unqualified Job Applications by 73%
 <br>
 <br>
+Courtesy:<https://socialmediaweek.org/newyork/events/case-study-national-geographics-albert-einstein-chatbot/>
+	<https://www.ubisend.com/case-studies>
+
+<br>
 
 ![PicR_3](https://user-images.githubusercontent.com/25864352/67790251-7917f980-fa9b-11e9-9744-932aec3d61b2.png)
 
 
 <br>
 <br>
+### Dialogflow
 Dialogflow (formerly Api.ai, Speaktoit) is a Google-owned developer of human–computer interaction technologies based on natural language conversations.
 Gives users new ways to interact with your product by building engaging voice and text-based conversational interfaces, such as voice apps and chatbots, powered by AI. Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
 <br><br><p>Dialogflow is an end-to-end, build-once deploy-everywhere development suite for creating conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices.
@@ -149,6 +143,7 @@ Wikipedia: Dialogflow<br>
 ![PicR_4](https://user-images.githubusercontent.com/25864352/67790250-7917f980-fa9b-11e9-84b5-da2feabc9ff0.png)
 
 <br>
+### ChatterBot
 __ChatterBot__ is a machine-learning based conversational dialog engine build in Python which makes it possible to generate responses based on collections of known conversations. The language independent design of ChatterBot allows it to be trained to speak any language.
 <br><br>
 
@@ -165,6 +160,7 @@ https://chatterbot.readthedocs.io/en/stable/ <br><br>
 ![PicR_6](https://user-images.githubusercontent.com/25864352/67790248-787f6300-fa9b-11e9-80f8-7f5cba47ab5d.png)
 
 <br><br>
+### RASA
 __RASA__ is a set of open source Machine learning tools for developers for Conversational AI. An open source machine learning framework to automate text-and voice-based conversations.
 <br><br>
 <p>Rasa’s primary purpose is to help you build contextual, layered conversations with lots of back-and-forth. To have a real conversation, you need to have some memory and build on things that were said earlier. Rasa lets you do that in a scalable way.
@@ -190,7 +186,7 @@ __GitHub__: https://github.com/rasaHQ/
 This bot has been created as a separate reposistory to keep the folder structure clean and un-cluttered.
 
 <br>
-### Please refer the below repo for the code implementation and installation instructions.
+#### Please refer the below repo for the code implementation and installation instructions.
 https://github.com/VijapurapuS/Chatbot/tree/master/bot
 
 <br>
@@ -212,14 +208,13 @@ The results obtained from the backend is posted to user via Slack
 ### Installation and Bot Setup Implementation & Refinement from Other bots created (DiagFlow & Chatterbot)
 This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below. 
 
-### Step 1: 
+#### Step 1: 
 Create Slack Bot user
 
-
-### Step 2: 
+#### Step 2: 
 Create a IBM Watson account and Upload the bot.json workspace
 
-### Step 3: 
+#### Step 3: 
 Install the required packages listed in the requirements.txt file. To install the required packages, please use the code below.
 
 ```
@@ -228,11 +223,11 @@ pip3 install -r requirements.txt
 <br>
 It would be recommended to use Python 3.5.x or 3.6.x version for this project.
 
-### Step 4: 
+#### Step 4: 
 Update the config files with the Slack and Watson API details
 Please make sure that you modified the API details both for Slack and Watson in the config.py file
 
-### Step 5:
+#### Step 5:
 Download data from source and perform Data Preparation.
 The data for this example is downloaded from the location below:
 
@@ -242,7 +237,7 @@ Name of the dataset - movies_metadata.csv
 
 "metadata_prep.csv" will be created after you run the data preparation code which will be later used in nlp models to train the movie recommendation system.
 
-### Step 6: 
+#### Step 6: 
 Create "onetime.txt" file
 Navigate to the folder where the main.py file resides and execute the code below.
 
@@ -251,7 +246,7 @@ python3 nlp/nlp_solutions/onetime_run_file.py
 ```
 This will create the "onetime.txt" file automatically.
 
-### Step 7: 
+#### Step 7: 
 Initiate Bot
 Navigate to the folder where the main python script exists and run the code below.
 
@@ -286,7 +281,7 @@ Data_Preparation.ipynb <https://github.com/VijapurapuS/Chatbot/blob/master/bot/d
 <br>
 <br>
 
-__Conclusion__:<br>
+### Conclusion:<br>
 Hope this article has simplified the process for creating your own bot! Message me in the comments with your example bots for interaction.
 <br><br>
 
@@ -295,12 +290,12 @@ Hope this article has simplified the process for creating your own bot! Message 
 * Extend recommendations based on actors
 * Collaborative user based recommendations
 
-__These are my bot examples:__ <br>
+### These are my bot examples:<br>
  * Chatterbot — <https://shankachakra.pythonanywhere.com/> <br>
  * Dialogflow bot <https://bot.dialogflow.com/dialogflow-demo>
 
 <br><br>
-__References__:<br>
+### References:<br>
 Udacity Nano Degree for Data Scientist <br>
 Searches on stackoverflow.com for research<br>
 <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code>
