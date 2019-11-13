@@ -6,6 +6,28 @@ https://medium.com/@naveen.vijapurapu/diy-build-your-own-jarvis-7fae3801c49
 ![Picr_1](https://user-images.githubusercontent.com/25864352/67790253-79b09000-fa9b-11e9-9b6e-eb133253ec3b.png)
 <i>Credit — Marvel Studios </i><br>	 
 
+Table of Contents
+=================
+
+      * [DIY: BUILD YOUR OWN JARVIS! (AI Chatbot)](#diy-build-your-own-jarvis-ai-chatbot)
+         * [By Subhash Naveen V<br>](#by-subhash-naveen-v)
+         * [Motivation](#motivation)
+         * [Problem Statement](#problem-statement)
+         * [Introduction](#introduction)
+         * [Different Types of Chatbots –](#different-types-of-chatbots-)
+         * [Metrics Used/ Referenced:](#metrics-used-referenced)
+         * [Improvements and Results:](#improvements-and-results)
+         * [RASA](#rasa)
+   * [Slack and IBM Watson Movie Recommendation System](#slack-and-ibm-watson-movie-recommendation-system)
+         * [Installation and Bot Setup Implementation &amp; Refinement from Other bots created (DiagFlow &amp; Chatterbot)](#installation-and-bot-setup-implementation--refinement-from-other-bots-created-diagflow--chatterbot)
+         * [Data Exploration &amp; Pre-Processing](#data-exploration--pre-processing)
+         * [Other options for bots](#other-options-for-bots)
+         * [Conclusion:](#conclusion)
+         * [Future Improvements:](#future-improvements)
+         * [These are my bot examples:<br>](#these-are-my-bot-examples)
+         * [References:<br>](#references)
+
+
 ### Motivation
 Conversational AI is re-defining the future of Customer Service. I wanted to explore on the options that are available for deploying chatbots and help answer the below questions to help make a difference for start-ups and smaller companies to compete with larger organizations – <br>
  - What is a Chatbot and why is it becoming a Big Deal?
