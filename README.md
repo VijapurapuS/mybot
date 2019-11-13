@@ -185,6 +185,69 @@ __Reference__: https://rasa.com/<br>
 __GitHub__: https://github.com/rasaHQ/
 <br><br>
 
+# Slack and IBM Watson Movie Recommendation System
+<br>
+This bot has been created as a separate reposistory to keep the folder structure clean and un-cluttered.
+
+<br>
+### Please refer the below repo for the code implementation and installation instructions.
+https://github.com/VijapurapuS/Chatbot/tree/master/bot
+
+<br>
+
+Data Exploration, Pre-processing, Results and Future improvements will be covered here for completeness of the article and Project report.
+
+### Installation and Bot Setup Implementation & Refinement fmor Other bots created (DiagFlow & Chatterbot)
+This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below. 
+
+### Step 1: 
+Create Slack Bot user
+
+### Step 2: 
+Create a IBM Watson account and Upload the bot.json workspace
+
+### Step 3: 
+Install the required packages listed in the requirements.txt file. To install the required packages, please use the code below.
+
+```
+pip3 install -r requirements.txt
+```
+<br>
+It would be recommended to use Python 3.5.x or 3.6.x version for this project.
+
+### Step 4: 
+Update the config files with the Slack and Watson API details
+Please make sure that you modified the API details both for Slack and Watson in the config.py file
+
+### Step 5:
+Download data from source and perform Data Preparation.
+The data for this example is downloaded from the location below:
+
+https://www.kaggle.com/rounakbanik/movie-recommender-systems/data
+
+Name of the dataset - movies_metadata.csv
+
+"metadata_prep.csv" will be created after you run the data preparation code which will be later used in nlp models to train the movie recommendation system.
+
+### Step 6: 
+Create "onetime.txt" file
+Navigate to the folder where the main.py file resides and execute the code below.
+
+```
+python3 nlp/nlp_solutions/onetime_run_file.py
+```
+This will create the "onetime.txt" file automatically.
+
+### Step 7: 
+Initiate Bot
+Navigate to the folder where the main python script exists and run the code below.
+
+```
+python3 main.py
+```
+
+
+
 ### Other options for bots 
 <br>
 
