@@ -147,7 +147,9 @@ Courtesy:<https://socialmediaweek.org/newyork/events/case-study-national-geograp
 
 <br>
 <br>
+
 ### Dialogflow
+
 Dialogflow (formerly Api.ai, Speaktoit) is a Google-owned developer of human–computer interaction technologies based on natural language conversations.
 Gives users new ways to interact with your product by building engaging voice and text-based conversational interfaces, such as voice apps and chatbots, powered by AI. Connect with users on your website, mobile app, the Google Assistant, Amazon Alexa, Facebook Messenger, and other popular platforms and devices.
 <br><br><p>Dialogflow is an end-to-end, build-once deploy-everywhere development suite for creating conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices.
@@ -162,8 +164,10 @@ Wikipedia: Dialogflow<br>
 ![PicR_4](https://user-images.githubusercontent.com/25864352/67790250-7917f980-fa9b-11e9-84b5-da2feabc9ff0.png)
 
 <br>
+
 ### ChatterBot
-__ChatterBot__ is a machine-learning based conversational dialog engine build in Python which makes it possible to generate responses based on collections of known conversations. The language independent design of ChatterBot allows it to be trained to speak any language.
+
+is a machine-learning based conversational dialog engine build in Python which makes it possible to generate responses based on collections of known conversations. The language independent design of ChatterBot allows it to be trained to speak any language.
 <br><br>
 
 __How it works__<br><br>
@@ -179,7 +183,10 @@ https://chatterbot.readthedocs.io/en/stable/ <br><br>
 ![PicR_6](https://user-images.githubusercontent.com/25864352/67790248-787f6300-fa9b-11e9-80f8-7f5cba47ab5d.png)
 
 <br><br>
+
 ### RASA
+
+<br>
 __RASA__ is a set of open source Machine learning tools for developers for Conversational AI. An open source machine learning framework to automate text-and voice-based conversations.
 <br><br>
 <p>Rasa’s primary purpose is to help you build contextual, layered conversations with lots of back-and-forth. To have a real conversation, you need to have some memory and build on things that were said earlier. Rasa lets you do that in a scalable way.
@@ -200,7 +207,8 @@ __Reference__: https://rasa.com/<br>
 __GitHub__: https://github.com/rasaHQ/
 <br><br>
 
-# Slack and IBM Watson Movie Recommendation System
+### Slack and IBM Watson Movie Recommendation System
+
 <br>
 This bot has been created as a separate reposistory to keep the folder structure clean and un-cluttered.
 
