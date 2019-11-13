@@ -270,15 +270,9 @@ https://www.kaggle.com/rounakbanik/movie-recommender-systems/data?source=post_pa
 The dataset contains a lot of information related to movies with less preprocessing required from users. Hence I chose it for training the 
 bot.
 
-Data_Preparation.ipynb <<https://github.com/VijapurapuS/Chatbot/blob/master/bot/data/Data_Preparation.ipynb>>
+Data_Preparation.ipynb <https://github.com/VijapurapuS/Chatbot/blob/master/bot/data/Data_Preparation.ipynb>
 
 <br>
-
-
-
-
-
-
 
 ### Other options for bots 
 <br>
